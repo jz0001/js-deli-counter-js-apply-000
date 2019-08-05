@@ -1,10 +1,18 @@
 var katzDeliLine = [];
 
-function takeANumber(katzDeliLine,name)
+//function takeANumber(katzDeliLine,name)
+//{
+  //katzDeliLine.push(name);
+//   return "Welcome, "+name.toString()+". You are number "+katzDeliLine.length+" in line.";
+// }
+var line=0;
+function takeANumber(katzDeliLine)
 {
-  katzDeliLine.push(name);
-  return "Welcome, "+name.toString()+". You are number "+katzDeliLine.length+" in line.";
+  line++;
+  return "Welcome, you have ticket number "+line;
+  
 }
+
 
 function nowServing(katzDeliLine)
 {
